@@ -10,3 +10,14 @@ while x < k: # Changing one by one up to the half-length k.
     x += 1
     l += 1
 print(my_list)
+
+# Question 2 : 
+
+l = int(input("Please give me a positive integer number n : "))
+while l < 0 : #Being sure that l is a non-negative integer.
+    print("You have to put a positive number")
+    l = input("Please give me a positive integer number n : ")
+x = 0
+while x <= l: # Printing the even integer values from 0 up to (including) l by a simple while loop.
+    print(x)
+    x += 2
